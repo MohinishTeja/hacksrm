@@ -1,0 +1,98 @@
+[
+    {
+        "user": "UMRH4GXMY",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1567872411.000200",
+        "text": "<@UMRH4GXMY> has joined the channel"
+    },
+    {
+        "user": "UN6GSNVJS",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1567872432.000400",
+        "text": "<@UN6GSNVJS> has joined the channel"
+    },
+        {
+            "client_msg_id": "3a223f8d-b5aa-4c9c-9b63-045ec6f90b58", "type": "message", "text": "hey there",
+            "user": "UMRH4GXMY",
+            "ts": "1567872476.000600",  
+            "team": "TN4AF0V5W",
+            "user_team": "TN4AF0V5W",
+            "source_team": "TN4AF0V5W",
+            "user_profile": {
+                "avatar_hash": "gda7c5a3ca2c",
+                "image_72": "https:\/\/secure.gravatar.com\/avatar\/da7c5a3ca2cffe7f5135751db119c5fd.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F136bc%2Fimg%2Favatars%2Fuser_shapes%2Fava_0025-72.png",
+                "first_name": "",
+                "real_name": "marvelmohinish99",
+                "display_name": "",
+                "team": "TN4AF0V5W",
+                "name": "marvelmohinish99",
+                "is_restricted": false,
+                "is_ultra_restricted": false
+            }
+        },
+    {
+        "client_msg_id": "b2613e8d-a381-4449-b2c2-6879261136fd",
+        "type": "message",
+        "text": "test 123",
+        "user": "UMRH4GXMY",
+        "ts": "1567872479.000800",
+        "team": "TN4AF0V5W",
+        "user_team": "TN4AF0V5W",
+        "source_team": "TN4AF0V5W",
+        "user_profile": {
+            "avatar_hash": "gda7c5a3ca2c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/da7c5a3ca2cffe7f5135751db119c5fd.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F136bc%2Fimg%2Favatars%2Fuser_shapes%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "marvelmohinish99",
+            "display_name": "",
+            "team": "TN4AF0V5W",
+            "name": "marvelmohinish99",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "051c326e-bbc2-4bfb-951b-f8f5a6fa0006",
+        "type": "message",
+        "text": "456",
+        "user": "UMRH4GXMY",
+        "ts": "1567872481.001000",
+        "team": "TN4AF0V5W",
+        "user_team": "TN4AF0V5W",
+        "source_team": "TN4AF0V5W",
+        "user_profile": {
+            "avatar_hash": "gda7c5a3ca2c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/da7c5a3ca2cffe7f5135751db119c5fd.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F136bc%2Fimg%2Favatars%2Fuser_shapes%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "marvelmohinish99",
+            "display_name": "",
+            "team": "TN4AF0V5W",
+            "name": "marvelmohinish99",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "17bbc1f8-591d-4461-aa37-b1e0057d6498",
+        "type": "message",
+        "text": "lets get this thing done",
+        "user": "UMRH4GXMY",
+        "ts": "1567872490.001300",
+        "team": "TN4AF0V5W",
+        "user_team": "TN4AF0V5W",
+        "source_team": "TN4AF0V5W",
+        "user_profile": {
+            "avatar_hash": "gda7c5a3ca2c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/da7c5a3ca2cffe7f5135751db119c5fd.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F136bc%2Fimg%2Favatars%2Fuser_shapes%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "marvelmohinish99",
+            "display_name": "",
+            "team": "TN4AF0V5W",
+            "name": "marvelmohinish99",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]
