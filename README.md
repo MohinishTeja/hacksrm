@@ -36,6 +36,6 @@ Project Name--    SlackDown.<br>
  
  1)We used functions to convert epoch form of timestamp to human readable format.<br>
  2)We used HTML inside JS and again inside of HTML to get the data from JS function to HTML.<br>
- 
+ 3) Used plotly method to generate graphs for the traffic of messages.<br>
   
   
