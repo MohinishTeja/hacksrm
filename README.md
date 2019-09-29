@@ -17,6 +17,8 @@ Project Name--    SlackDown.<br>
   Also, we are representing the extraction of JSON data which is the main source of data type using today in any web application.It transfers data between Server and users efficiently than previous version like XML.
   
   
+
+  
   
   Slack JSON data is originally used to merge two workspaces but here we will be using it to recreate the entire conversation which makes this a unique project.<br>
   
@@ -37,5 +39,10 @@ Project Name--    SlackDown.<br>
  1)We used functions to convert epoch form of timestamp to human readable format.<br>
  2)We used HTML inside JS and again inside of HTML to get the data from JS function to HTML.<br>
  3) Used plotly method to generate graphs for the traffic of messages.<br>
+ 
+ 
+ Project Website Link-<br>
+ 
+ http://haksrm.000webhostapp.com/index.html <br>
   
   
