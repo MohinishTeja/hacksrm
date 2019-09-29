@@ -11,6 +11,8 @@ Project Name--    SlackDown.
   Hence, we would like to use the JSON dump files provided by slack to recreate a interface that has all the old messages displayed in it. Further, we will be adding search option and Analytics to show the progress and trends happening in the workspace.
   
   Use-
+  
+  
   With this hack,we will be saving 3$ a month for every user in workspace.Consider a workspace of 100 members it costs 300$ a month for workspace.
   Also, we are representing the extraction of JSON data which is the main source of data type using today in any web application.It transfers data between Server and users efficiently than previous version like XML.
   
@@ -25,4 +27,15 @@ Project Name--    SlackDown.
   1)JSON dump files from slack are highly complex to retrieve.  
   2)JSON files of slack has n number of objects looped inside each other and finally in a array.
   3)Though we can access the variables easily it is difficult to print it out to HTML because
-    a)
+    a)Javascript has only two main ways to print out to HTML(getElementbyId and document.write).
+  4)timestamp is not in human readable format.
+  5)making a interface from scratch.
+  
+  
+ Problem Solving techniques-
+ 
+ 1)We used functions to convert epoch form of timestamp to human readable format.
+ 2)We used HTML inside JS and again inside of HTML to get the data from JS function to HTML.
+ 
+  
+  
