@@ -24,7 +24,7 @@ Project Name--    SlackDown.
   Tools/technologies we use - JavaScript,JS libraries,HTML,CSS.
   
   Problems Faced-
-  1)JSON dump files from slack are highly complex to retrieve.  
+  1)JSON dump files from slack are highly complex to retrieve.  <br>
   2)JSON files of slack has n number of objects looped inside each other and finally in a array.
   3)Though we can access the variables easily it is difficult to print it out to HTML because
     a)Javascript has only two main ways to print out to HTML(getElementbyId and document.write).
