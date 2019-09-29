@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SlackDown</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div id="output"> </div>
+
+	<script>
+		
+	var obj=[{
+    "client_msg_id": "3a223f8d-b5aa-4c9c-9b63-045ec6f90b58",
+    "type": "message",
+    "text": "hey there",
+    "ts": "1567872490.001300",
+    "source_team": "TN4AF0V5W",
+    "team": "TN4AF0V5W",
+    "user_profile": {
+      "real_name": "marvelmohinish99",
+      "team": "TN4AF0V5W"
+    }
+  },
+  {
+    "client_msg_id": "3a223f8d-b5aa-4c9c-9b63-045ec6f90b58",
+    "type": "message",
+    "text": "welcome",
+    "ts": "1567872490.001300",
+    "source_team": "TN4AF0V5W",
+    "team": "TN4AF0V5W",
+    "user_profile": {
+      "real_name": "marvelmohinish99",
+      "team": "TN4AF0V5W"
+    }
+  },
+  {
+    "client_msg_id": "3a223f8d-b5aa-4c9c-9b63-045ec6f90b58",
+    "type": "message",
+    "text": "Help me",
+    "ts": "1567872490.001300",
+    "source_team": "TN4AF0V5W",
+    "team": "TN4AF0V5W",
+    "user_profile": {
+      "real_name": "marvelmohinish99",
+      "team": "TN4AF0V5W"
+    }
+  },
+
+  {
+    "client_msg_id": "3a223f8d-b5aa-4c9c-9b63-045ec6f90b58",
+    "type": "message",
+    "text": "hey there",
+    "ts": "1567872490.001300",
+    "source_team": "TN4AF0V5W",
+    "team": "TN4AF0V5W",
+    "user_profile": {
+      "real_name": "marvelmohinish99",
+      "team": "TN4AF0V5W"
+    }
+  },
+  {
+    "client_msg_id": "3a223f8d-b5aa-4c9c-9b63-045ec6f90b58",
+    "type": "message",
+    "text": "welcome",
+    "ts": "1567872490.001300",
+    "source_team": "TN4AF0V5W",
+    "team": "TN4AF0V5W",
+    "user_profile": {
+      "real_name": "marvelmohinish99",
+      "team": "TN4AF0V5W"
+    }
+  },
+  {
+    "client_msg_id": "3a223f8d-b5aa-4c9c-9b63-045ec6f90b58",
+    "type": "message",
+    "text": "Help me",
+    "ts": "1567872490.001300",
+    "source_team": "TN4AF0V5W",
+    "team": "TN4AF0V5W",
+    "user_profile": {
+      "real_name": "marvelmohinish99",
+      "team": "TN4AF0V5W"
+    }
+  }
+];
+
+
+
+obj.forEach(function(x, i) {
+  setTimeout(function() {  
+    var utc = x.ts;
+    var d= new Date(0);
+    d.setUTCSeconds(utc);
+
+    var entry = "<div class='name'>" + x.user_profile.real_name + "</div><div class='ts'>" + d+"</div><div class='text'>"+ x.text+"</div>";
+    document.getElementById("output").innerHTML += entry;
+  }, 2 * i);
+});
+	</script>
+
+
+
+	<style type="text/css">
+		
+		.name{
+			color: #1d1c1d;
+			font-size: 20px;
+			font-family: 'Lato', sans-serif;
+			margin: 1%;
+			font-weight: bold;
+		}
+
+		.ts {
+			color: #1d1c1d;
+			font-size: 15px;
+			font-family: 'Lato', sans-serif;
+			margin-left: 1%;
+			margin-top: -1%;
+		}
+
+		.text{
+			color: #1d1c1d;
+			font-size: 20px;
+			font-family: 'Lato', sans-serif;
+			margin-left: 1%;
+			
+		}
+	</style>
+
+</body>
+</html>
