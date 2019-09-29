@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hack Down</title>
+	<script src="plotly.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+</head>
+<body>
+<div id="chart"></div>
+
+
+<script type="text/javascript">
+
+var obj0 = [{
+    "client_msg_id": "3a223f8d-b5aa-4c9c-9b63-045ec6f90b58",
+    "type": "message",
+    "text": "hey there",
+    "ts": "1567872490.001300",
+    "source_team": "TN4AF0V5W",
+    "team": "TN4AF0V5W",
+    "user_profile": {
+      "real_name": "marvelmohinish99",
+      "team": "TN4AF0V5W"
+    }
+  },
+  {
+    "client_msg_id": "3a223f8d-b5aa-4c9c-9b63-045ec6f90b58",
+    "type": "message",
+    "text": "welcome",
+    "ts": "1567872490.001300",
+    "source_team": "TN4AF0V5W",
+    "team": "TN4AF0V5W",
+    "user_profile": {
+      "real_name": "marvelmohinish99",
+      "team": "TN4AF0V5W"
+    }
+  },
+  {
+    "client_msg_id": "3a223f8d-b5aa-4c9c-9b63-045ec6f90b58",
+    "type": "message",
+    "text": "Help me",
+    "ts": "1567872490.001300",
+    "source_team": "TN4AF0V5W",
+    "team": "TN4AF0V5W",
+    "user_profile": {
+      "real_name": "marvelmohinish99",
+      "team": "TN4AF0V5W"
+    }
+  }
+];
+
+
+
+
+
+function getData(){
+  return obj0.length;
+}
+
+
+
+Plotly.plot('chart',[{
+  y:[getData()],
+  type:'line'
+}]);
+
+setInterval(function(){
+  Plotly.extendTraces('chart',{ y:[[getData()]]},[0]);
+},200000	);
+
+
+</script>
+</body>
+</html>
